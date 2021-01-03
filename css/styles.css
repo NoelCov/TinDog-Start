@@ -9,6 +9,7 @@ body {
 }
 
 h1 {
+  font-family: "Montserrat";
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
@@ -27,11 +28,11 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navlinks {
-  margin-left: 55%;
+  margin-left: 60%;
 }
 
 .navbar {
@@ -39,8 +40,8 @@ h3 {
 }
 
 .navbar-brand {
+  font-family: "Montserrat";
   font-size: 30px;
-  font-weight: 500;
 }
 
 .nav-item {
@@ -48,7 +49,7 @@ h3 {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .title-buttons {
@@ -60,15 +61,19 @@ h3 {
 }
 
 .title-image {
-  width: 60%;
+  width: 15%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features Section */
 
 #features {
-  margin: 0;
+  position: relative;
+  z-index: 1;
   padding: 7% 15%;
+  background-color: white;
 }
 
 .feature-container {
